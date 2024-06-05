@@ -46,8 +46,8 @@ jobs:
       - run: git status
 
       # Push the images to the output branch
-      - uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
+      # - uses: crazy-max/ghaction-github-pages@v3.1.0
+        # with:
           # the output branch we mentioned above
-          target_branch: output
-          build_dir: dist
+          # target_branch: output
+          # build_dir: dist
